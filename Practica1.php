@@ -2,9 +2,7 @@
 <head></head>
 <body>
     <?php
-        echo "Hola";
-        echo "este es el curso introductorio a php";
-        echo "Adiós";
+        echo "Hola" ."<br>". "este es el curso php" ."<br>". "Adios";
     ?>
 </body>
 </html>
