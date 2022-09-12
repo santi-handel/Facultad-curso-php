@@ -6,12 +6,12 @@
 <?php
 $valor=rand(1,100);
 $inicio=1;
-while($inicio<=$valor)
+do
 {
 echo $inicio;
 echo "<br>";
 $inicio++;
-}
+}while($inicio<=$valor)
 ?>
 </body>
 </html>
