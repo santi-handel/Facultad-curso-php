@@ -8,7 +8,16 @@
 </head>
 <body>
 <?php
-    
+    $valor=rand(1,3);
+    if($valor == 1){
+        echo "el valor es uno";
+    }
+    elseif($valor==2){
+        echo "el valor es dos";
+    }
+    else{
+        echo "el valor es tres";
+    }
 ?>
 </body>
 </html>
